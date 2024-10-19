@@ -34,14 +34,17 @@
   },
   "name":"Nature Bowling",
   "resources":[
+    {"id":{"name":"ClassicGameManager","path":"objects/ClassicGameManager/ClassicGameManager.yy",},},
     {"id":{"name":"Obj_Ball","path":"objects/Obj_Ball/Obj_Ball.yy",},},
     {"id":{"name":"Obj_BallSpawner","path":"objects/Obj_BallSpawner/Obj_BallSpawner.yy",},},
+    {"id":{"name":"Obj_GameOver","path":"objects/Obj_GameOver/Obj_GameOver.yy",},},
     {"id":{"name":"Obj_IconClassic","path":"objects/Obj_IconClassic/Obj_IconClassic.yy",},},
     {"id":{"name":"Obj_IconEndless","path":"objects/Obj_IconEndless/Obj_IconEndless.yy",},},
     {"id":{"name":"Obj_logo","path":"objects/Obj_logo/Obj_logo.yy",},},
     {"id":{"name":"Obj_Pino","path":"objects/Obj_Pino/Obj_Pino.yy",},},
     {"id":{"name":"Obj_PinSpawner","path":"objects/Obj_PinSpawner/Obj_PinSpawner.yy",},},
     {"id":{"name":"ClassicMode","path":"rooms/ClassicMode/ClassicMode.yy",},},
+    {"id":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
     {"id":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"id":{"name":"Spr_Ball","path":"sprites/Spr_Ball/Spr_Ball.yy",},},
     {"id":{"name":"Spr_IconClassic","path":"sprites/Spr_IconClassic/Spr_IconClassic.yy",},},
@@ -54,6 +57,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"ClassicMode","path":"rooms/ClassicMode/ClassicMode.yy",},},
+    {"roomId":{"name":"GameOver","path":"rooms/GameOver/GameOver.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

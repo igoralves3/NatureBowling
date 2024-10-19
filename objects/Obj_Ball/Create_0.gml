@@ -10,7 +10,7 @@ adjustSpeed = 1;
 starter_x= x;
 starter_y = y;
 
-rollSpeed = 0;
+rollSpeed = 10;
 
 stateIdle = 1;
 stateRolling = 2;
